@@ -17,12 +17,15 @@
 }
 
 // put new methods here
-//(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
-    //this will get called every time the player touches the screen
+
+//          this didnt work bcuz i frgt to put in the dash (-)
+//          (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
+//this will get called every time the player touches the screen
 //}
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     // this will get called every time the player touches the screen
+    [character flap];
 }
 
 @end
